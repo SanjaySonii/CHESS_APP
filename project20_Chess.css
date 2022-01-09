@@ -1,0 +1,130 @@
+/* CSS RESET  */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* BODY  */
+
+body{
+    background: linear-gradient(rgb(203, 237, 248) , chocolate);
+    background-repeat: no-repeat;
+    color: rgb(30, 128, 0);
+    display: flex;
+    flex-direction: row;
+}
+
+/* CHESS_BOARD STARTS */
+
+.Chess_Board{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+    margin : auto;
+    margin-top: .5rem;
+    border: .4rem solid wheat;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.box{
+    width: 5rem;
+    height: 5rem;
+    border: 2px solid black; 
+}
+.black{
+    background-color: rgb(88, 107, 88);
+}
+
+.white{
+    background-color: rgb(224, 199, 152);
+}
+.Chess_Elements{
+    display: flex;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+    width: 5rem;
+    height: 5rem;
+}
+.B{
+    color: rgb(32, 21, 21);
+}
+.W{
+    color: rgb(255, 255, 255);
+}
+/* CHESS_BOARD ENDS  */
+/*  CONTAINER STARTS   */
+#container{
+    height: 13rem;
+    width: 20rem;
+    position: relative;
+    right: 10rem;
+    margin-top: 2rem;
+    text-align: center;
+    font-size:x-large;
+    font-family:monospace;
+}
+#C{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+}
+#C input[type="radio"]{
+    width: 2rem;
+    height: 1rem;
+}
+#alive{
+    display: flex;
+    flex-direction: column;
+}
+#alive div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.alives{
+    width: 2rem;
+    height: 1rem;
+}
+.Move{
+    margin-top: 3rem;
+    width: 10rem;
+    height: 10rem;
+    object-fit:contain;
+}
+.refresh{
+    position: absolute;
+    top: 32rem;
+    right: 7rem;
+    width: 6rem;
+    padding :.2rem;
+    border-radius: 2rem;
+    background-color: rgb(247 243 125);
+}
+.refresh:hover{
+    background: linear-gradient(white,black);
+}
+/* CONTAINER ENDS  */
+/* BORDER CLASS */
+.border{
+    border: 2px solid rgb(243, 9, 107);
+}
+
+/* DISPLAY CLASS */
+.display{
+    display: none;
+}
