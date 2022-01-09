@@ -187,7 +187,7 @@
                 border: 1px solid black;
             }
             .border{
-    border: 2px solid rgb(243, 9, 107);
+    border: 1px solid rgb(243, 9, 107);
 }
             .Chess_Elements {
                 
@@ -208,7 +208,7 @@
                 border: 1px solid black;
             }
             .border{
-    border: 2px solid rgb(243, 9, 107);
+    border: 1px solid rgb(243, 9, 107);
 }
             .Chess_Elements {
                 
@@ -231,7 +231,7 @@
                 border: 1px solid black;
             }
             .border{
-    border: 2px solid rgb(243, 9, 107);
+    border: 1px solid rgb(243, 9, 107);
 }
             .Chess_Elements {
                 
