@@ -327,7 +327,7 @@
             </div>
         </div>
         <div id="choosed"></div>
-        <div id="move"><h2>Oops Match is draw,<br> Click on the REFRESH button to play again</h2></div>
+        <div id="move"></div>
         <div id="alive"></div>
         <button class="refresh" id="refresh">REFRESH</button>
     </div>
